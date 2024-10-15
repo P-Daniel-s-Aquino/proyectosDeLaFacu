@@ -17,7 +17,7 @@ class Diccionario:
     #     for a in range(0, len(args), 2):
     #         esp = args[a]     # Las palabras en español se guardan en la posicion de a
     #         ing = args[a+1]   # Las palabras en ingles se guardan en la siguiente posicion a respecto de a
-    #         self.palabras.update({esp : ing}) # Se actualiza el diccionario
+    #         self.palabras.update({esp : ing}) # Se actualiza el diccionario.
                                 
     def nuevo_par(self, esp, ing):
         self.palabras.update({esp : ing})
